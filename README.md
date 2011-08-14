@@ -1,0 +1,1 @@
+Exercises from the C book, by K & R
