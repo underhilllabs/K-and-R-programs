@@ -9,6 +9,8 @@ int main() {
     chars[i] = 0;
   while((c = getchar()) != EOF) {
     // TODO lowercase all letters
+    if (c >= 'A' && c <= 'Z') 
+      c = c-'a';
     if (c >= 'a' && c <= 'z') {
       ++chars[c-'a'];
     }
